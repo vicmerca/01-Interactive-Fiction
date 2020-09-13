@@ -1,0 +1,611 @@
+
+
+{
+  "passages": [
+    {
+      "text": "Ever since you were a child, you grew up in a small village in a fairly secluded forest, and there's a legend that's been passing around for as long as you can remember. They say that if head east from the village and enter the forest, you'll come up to a large mountain. Climbing up the mountain will lead you to a cave. Somewhere inside this cave is said to be a room full of treasure! As of now, no one has ever returned out of there with anything of value, but anyone that has made the journey up there always says that the cave has a strange aura to it...\n\nYou have decided to take this journey up the mountain. You don't expect to find anything of great value, but it's not like you've had much better to do. It's either this or cleaning up the family barn once again... and the thought of that sends shivers down your spine.\n\nAfter a long day of traveling, you finally reach the foot of the aforementioned cave! After entering, you are immediately presented with a fork in the road. Which way do you take?\n\n[[Left might be a good idea...->Left]]\n[[Of course, right is the *right* way to go!->Right]]",
+      "links": [
+        {
+          "name": "Left might be a good idea...",
+          "link": "Left",
+          "pid": "2"
+        },
+        {
+          "name": "Of course, right is the *right* way to go!",
+          "link": "Right",
+          "pid": "3"
+        }
+      ],
+      "name": "Start",
+      "pid": "1",
+      "position": {
+        "x": "344",
+        "y": "187"
+      }
+    },
+    {
+      "text": "You choose to go left. As you walk forward, you quickly come across a large gap on the floor. It goes so far down, you can't even seem to see the bottom of it. Looking ahead, you can see an edge of clif leading to some more ground. You think you might be able to jump across, but you are not entireluy sure if you can do it.\n[[I think I'll stay back to where its safe...->Fork]]\n[[I could always try to jump...->Platform]]",
+      "links": [
+        {
+          "name": "I think I'll stay back to where its safe...",
+          "link": "Fork",
+          "pid": "12"
+        },
+        {
+          "name": "I could always try to jump...",
+          "link": "Platform",
+          "pid": "4"
+        }
+      ],
+      "name": "Left",
+      "pid": "2",
+      "position": {
+        "x": "326",
+        "y": "337"
+      }
+    },
+    {
+      "text": "It doesn't take very long for you to find yourself face-to-face with a wall. It looks as if it was the result of a cave-in. Inspecting it a little closer, through its cracks,  you can see what appears to be light! You think you're strong enough to be able to push some of those rocks out of the way to make an opening, but you also imagine that you might hurt your hands in the process of it...\n\n[[Eh... I think I'd rather keep my hands...->Fork]]\n[[Haven't heard of this in any of the stories I've been told... might be worth the sacrafice->Mystery Room]]",
+      "links": [
+        {
+          "name": "Eh... I think I'd rather keep my hands...",
+          "link": "Fork",
+          "pid": "12"
+        },
+        {
+          "name": "Haven't heard of this in any of the stories I've been told... might be worth the sacrafice",
+          "link": "Mystery Room",
+          "pid": "7"
+        }
+      ],
+      "name": "Right",
+      "pid": "3",
+      "position": {
+        "x": "485",
+        "y": "338"
+      }
+    },
+    {
+      "text": "You start from the edge of the room and dash forwards to the gap. You push yourself up with all your might... the landing we pretty rough, but you somehow were able to land across!\n\nYou take a look around at your new surroundings. You spot another pathway directly in front of the gap that leads deeper into the cave. As you were about to continue onward, a speck of a shine catches your eye. Moving towards it, you find a rusty sword on the ground! What was it doing here how it got there didn't matter. You have something to protect yourself with (which in hindsight, you probably should've bought something with you...) and you hope that this string of good luck doesn't run out soon!\n\nAs you move forward, you come across an abnormally large spider sleeping smack down in the middle of your path. You could try to sneak around it or you could attack it using your newfound sword.\n\n[[This sword should make this fight easy enough!->Attack]]\n[[I think sneaking past might be the best option... Probably a good idea to save my energy for later fights.->Sneak]]",
+      "links": [
+        {
+          "name": "This sword should make this fight easy enough!",
+          "link": "Attack",
+          "pid": "5"
+        },
+        {
+          "name": "I think sneaking past might be the best option... Probably a good idea to save my energy for later fights.",
+          "link": "Sneak",
+          "pid": "6"
+        }
+      ],
+      "name": "Platform",
+      "pid": "4",
+      "position": {
+        "x": "326",
+        "y": "487"
+      }
+    },
+    {
+      "text": "Before the spider had anytime to react, you thrust your sword through it. You... somehow killed without any trouble! You continue onward with a newfound pride!\n\nAs you continue onward, you quickly come across a current flowing by. You start walking along the stream and you come across a large room. In the center of it, you see a large, reptile-like figure sleeping in the center of it. Could it be... a dragon?!\n\nIt obviously hasn't been alerted to your presence yet, but you begin to wonder... what the heck is it doing here? Perhaps it could be guarding the treasure? You take another look around and... there it is! A chest sits right behind its tail! The problem is getting over there...\n\nThe thing is, with this power of pride, you find it within yourself to do only one thing...\n\n[[Slay it!->Dragon Slay!]]",
+      "links": [
+        {
+          "name": "Slay it!",
+          "link": "Dragon Slay!",
+          "pid": "18"
+        }
+      ],
+      "name": "Attack",
+      "pid": "5",
+      "position": {
+        "x": "166",
+        "y": "635"
+      }
+    },
+    {
+      "text": "Unfortunately, stealth is not one of your strengths, and you accidentally hit the wall with one of your feet and alert the spider to your presence. You start running as fast as you can, not wanting to be bitten by its ginormous mouth, and you can hear it begin its chase. Unfortunately, this also means losing your sword in the process... can't be carrying around too much weight...\n\nAs you run forward, you quickly come across another gap on the floor ahead. This time, it appears to be a current running through the inside of the cave. You can faintly see an edge on the other side of the current, containing some more ground to possibly jump on...\n\n[[Screw it! I'm gonna jump!->Current]]\n[[I gotta get rid of this spider!->Fight!]]",
+      "links": [
+        {
+          "name": "Screw it! I'm gonna jump!",
+          "link": "Current",
+          "pid": "8"
+        },
+        {
+          "name": "I gotta get rid of this spider!",
+          "link": "Fight!",
+          "pid": "9"
+        }
+      ],
+      "name": "Sneak",
+      "pid": "6",
+      "position": {
+        "x": "401",
+        "y": "637"
+      }
+    },
+    {
+      "text": "Whelp, your hands are all bloody and scratched now... but the environment around you is unlike anything you would've expected to find in here. A door now faces you and two lit up torches surrounding it. The door itself has a complex pattern you don't recognize, but you can tell whatever is behind it is important. You don't notice anything else in the room- wait a minute... who keep those torches lit up in a secluded place like this?\n\n\"Hello, young one. I assume you are here for the treasure, yes?\"\n\nWho the heck is that?! Who's talking to you?!\n\n\"Don't fear me. I am a spirit sent here to guard the treasure. I won't harm you... yet. As long as you can answer these questions correctly, I'll open the door for you, and everything inside will be yours...\"\n\n\"You suddenly find yourself to be very tired during a long day of work. You want to take a moment to rest, but you know there are still things that have yet to be completed. How do you solve this situation?\"\n\n[[I should probably take care of it now. The sooner I get done, the sooner I can go home!->1a]]\n[[I could ask someone else to take over for me. Well, I don't think I'll be getting much done if I'm tired...->2a]]\n[[I could stop and grab something to eat. That could re-energize me for the rest of the day!->3a]]\n[[I'll get everything done really fast... even if it means I have to cut corners, at least I'll have more time to rest later.->4a]]\n[[I'll just get off now and save the rest for tomorrow.->5a]]\n[[On second thought, I think I'll go back...->Fork]]",
+      "links": [
+        {
+          "name": "I should probably take care of it now. The sooner I get done, the sooner I can go home!",
+          "link": "1a",
+          "pid": "10"
+        },
+        {
+          "name": "I could ask someone else to take over for me. Well, I don't think I'll be getting much done if I'm tired...",
+          "link": "2a",
+          "pid": "24"
+        },
+        {
+          "name": "I could stop and grab something to eat. That could re-energize me for the rest of the day!",
+          "link": "3a",
+          "pid": "25"
+        },
+        {
+          "name": "I'll get everything done really fast... even if it means I have to cut corners, at least I'll have more time to rest later.",
+          "link": "4a",
+          "pid": "26"
+        },
+        {
+          "name": "I'll just get off now and save the rest for tomorrow.",
+          "link": "5a",
+          "pid": "27"
+        },
+        {
+          "name": "On second thought, I think I'll go back...",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": "Mystery Room",
+      "pid": "7",
+      "position": {
+        "x": "756",
+        "y": "469"
+      }
+    },
+    {
+      "text": "You to try to make the jump and...\n\nIt's no good. Tried from your chase, you couldn't make a jump as grand as the last and fall into the current below. You try to swim, but the rush of the current is too much for you and you hit your head on a rock. You pass out...\n\nYou wake up an uncertain amount of time later. You're away from the pull of the river and are lying down on some sort of beach outside. Out of all the people who you could imagine being here with you, the village elder is standing above you. After making sure you weren't heavily injured, he pulls you to your feet. He asks you what happened and what you were doing here and you explain to him everything that you did once you entered the cave.\n\n\"Next time, you should learn how to toughen yourself up and fight things! I've told you this ever since you were a kid!\"\n\n[[Start Over->Fork]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": "Current",
+      "pid": "8",
+      "position": {
+        "x": "257",
+        "y": "791"
+      }
+    },
+    {
+      "text": "You turn around just as you reach the edge. The spider comes up fast. You ready your sword just as the spider jumps up to makes its attack! It uses its mouth to bite you, leaving a wound in the process! It hurts a lot more than you expected it to, but you manage to punch it square in the face and the spider lets go. You lift up your sword and make a slice through its body! You emerge victorious and unscathed... massive bite marks aside... hopefully it isn't venous...\n\nAll this running and fighting has now made you incredibly tired... \n\n[[Why not take a rest? I've earned it...->Rest]]\n[[Nah, I should keep exploring around.->Explore]]\n",
+      "links": [
+        {
+          "name": "Why not take a rest? I've earned it...",
+          "link": "Rest",
+          "pid": "14"
+        },
+        {
+          "name": "Nah, I should keep exploring around.",
+          "link": "Explore",
+          "pid": "15"
+        }
+      ],
+      "name": "Fight!",
+      "pid": "9",
+      "position": {
+        "x": "476",
+        "y": "787"
+      }
+    },
+    {
+      "text": "\"Very good...\"\n\n\"What has the old man of the village always taught the children?\"\n\n[[To always be willing to give to those in need?->1b]]\n[[An apple a day keeps the doctor away!->2b]]\n[[To toughen up and learn when to fight for yourself!->3b]]\n[[Always be concerned for the benefits of others around you instead of yourself->4b]]\n[[Don't ever be afriad to stand up for someone if they're in trouble->5b]]\n[[On second thought, I think I'll go back...->Fork]]",
+      "links": [
+        {
+          "name": "To always be willing to give to those in need?",
+          "link": "1b",
+          "pid": "20"
+        },
+        {
+          "name": "An apple a day keeps the doctor away!",
+          "link": "2b",
+          "pid": "23"
+        },
+        {
+          "name": "To toughen up and learn when to fight for yourself!",
+          "link": "3b",
+          "pid": "13"
+        },
+        {
+          "name": "Always be concerned for the benefits of others around you instead of yourself",
+          "link": "4b",
+          "pid": "21"
+        },
+        {
+          "name": "Don't ever be afriad to stand up for someone if they're in trouble",
+          "link": "5b",
+          "pid": "22"
+        },
+        {
+          "name": "On second thought, I think I'll go back...",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": "1a",
+      "pid": "10",
+      "position": {
+        "x": "756",
+        "y": "610"
+      }
+    },
+    {
+      "text": "Darkness. That's the next thing you see after answering the question. Next thing you know, you're lying on the ground. After getting your bearings, you find yourself outside the cave. Looks like this is what happens whenever you answer a question incorrectly.\n\nMaybe it wouldn't be such a bad idea going left...\n\n[[==>->Fork]]",
+      "links": [
+        {
+          "name": "==>",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": "Restart",
+      "pid": "11",
+      "position": {
+        "x": "934",
+        "y": "527"
+      }
+    },
+    {
+      "text": "You are immediately presented with a fork in the road... Which way do you take?\n\n[[Left might be a good idea...->Left]]\n[[Of course, right is the *right* way to go!->Right]]",
+      "links": [
+        {
+          "name": "Left might be a good idea...",
+          "link": "Left",
+          "pid": "2"
+        },
+        {
+          "name": "Of course, right is the *right* way to go!",
+          "link": "Right",
+          "pid": "3"
+        }
+      ],
+      "name": "Fork",
+      "pid": "12",
+      "position": {
+        "x": "468",
+        "y": "192"
+      }
+    },
+    {
+      "text": "\"Well done...\"\n\n\"A large foe stands in front of you! It looks pretty tough, and it acts as a barricade to your home. What do you do?\"\n\n[[Get out of my way! I won't be afraid to fight you!->1c]]\n[[Back off for now. I can't face this alone. I'll grab a group of my friends to help me... we'll beat them with the power of teamwork and friendship!->2c]]\n[[Back away... I'll probably be able to sneak around it.->3c]]\n[[Well... they can have the house if they want. I'll just leave them be...->4c]]\n[[Ignore them. Bullies eventually go away if you ignore then long enough.->5c]]",
+      "links": [
+        {
+          "name": "Get out of my way! I won't be afraid to fight you!",
+          "link": "1c",
+          "pid": "28"
+        },
+        {
+          "name": "Back off for now. I can't face this alone. I'll grab a group of my friends to help me... we'll beat them with the power of teamwork and friendship!",
+          "link": "2c",
+          "pid": "19"
+        },
+        {
+          "name": "Back away... I'll probably be able to sneak around it.",
+          "link": "3c",
+          "pid": "29"
+        },
+        {
+          "name": "Well... they can have the house if they want. I'll just leave them be...",
+          "link": "4c",
+          "pid": "30"
+        },
+        {
+          "name": "Ignore them. Bullies eventually go away if you ignore then long enough.",
+          "link": "5c",
+          "pid": "31"
+        }
+      ],
+      "name": "3b",
+      "pid": "13",
+      "position": {
+        "x": "760",
+        "y": "770"
+      }
+    },
+    {
+      "text": "You decide to sit against the wall. You look upon your wound, worrying about the bite you got. Unforutanaley, you have nothing to treat yourself with, so you really hope it isn't venomous. Luckily, you can already feel the pain nullifying a bit.\n\nYou quickly find your eyes start to get heavy and fall asleep. You guess you were really tired...\n\nYou wake up an uncertain amount of time later. Your head feels warm, you have a pounding headache, and your entire body feels weak. Oh no, looks like that bite was venomous. You try to get up, but you're too weak to do so. You think to yourself that this is the end... a bite from a giant spider is how you will go. Well, at least it can't get any worse than this...\n\nYou hear a sound to your left. Is there someone coming to save you? Is there hope? No, its a snake... and a rather large one... It starts inspecting you, and it gradually starts to wrap around your body. It goes on like this for a few minutes until you're completely bonded to the snake. The snake looks at you straight in the eyes, until its big mouth opens up and wraps around your head.\n\nMaybe it was a better idea not to stay and rest...\nPerhaps going straight home was the best call?\n\n[[Start Over->Fork]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": "Rest",
+      "pid": "14",
+      "position": {
+        "x": "401",
+        "y": "937"
+      }
+    },
+    {
+      "text": "You decide to save the resting for later. You start walking along the stream and you come across a large room. In the center of it, you see a large, reptile-like figure sleeping in the center of it. Could it be... a dragon?!\n\nIt obviously hasn't been alerted to your presence yet, but you begin to wonder... what the heck is it doing here? Perhaps it could be guarding the treasure? You take another look around and... there it is! A chest sits right behind its tail! The problem is getting over there...\n\n[[Guess I gotta try my best to sneak by it...->Dragon Sneak]]\n[[I think I can take this on bare handed!-> Dragon Encounter]]",
+      "links": [
+        {
+          "name": "Guess I gotta try my best to sneak by it...",
+          "link": "Dragon Sneak",
+          "pid": "16"
+        },
+        {
+          "name": "I think I can take this on bare handed!",
+          "link": " Dragon Encounter",
+          "pid": "17"
+        }
+      ],
+      "name": "Explore",
+      "pid": "15",
+      "position": {
+        "x": "551",
+        "y": "937"
+      }
+    },
+    {
+      "text": "To your own great surprise, nothing went wrong this time! You reach the chest in complete silence with no disturbances whatsoever. You pull the chest quietly away from the dragon and open it up immediately, and its... empty?! Could someone have already picked it clean before you, or was the fabled treasure never real in the first place?\n\nNonetheless, this will be quite the unsatisfying conclusion to your story...\n\n[[Start Over->Fork]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": "Dragon Sneak",
+      "pid": "16",
+      "position": {
+        "x": "476",
+        "y": "1086"
+      }
+    },
+    {
+      "text": "\nNo. No, you cannot.\n\nUnsurprisingly, the dragon simply wakes up to your presence (your battle cry being loud enough to be a suitable alarm clock) and stomps you flat with its foot.\n\nStart over. Think about your life choices.\n\n[[Start Over->Fork]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": " Dragon Encounter",
+      "pid": "17",
+      "position": {
+        "x": "626",
+        "y": "1087"
+      }
+    },
+    {
+      "text": "You rush towards it. You let out a hearty battle cry! You swing your sword upward, and...\n\nThe dragon simply breaths fire out of its mouth towards you. You are incinerated instantly.\n\nYou don't expect to defeat an entire dragon all by yourself, do you?\n\n[[Start Over->Fork]]",
+      "links": [
+        {
+          "name": "Start Over",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": "Dragon Slay!",
+      "pid": "18",
+      "position": {
+        "x": "137",
+        "y": "785"
+      }
+    },
+    {
+      "text": "\"You have done well... the door opens for you... my work here is done...\"\n\nThe presence leaves the area, and the door opens in front of you without any visible action. On the other side is a chest! You quickly run-up to it and open it, and... there's tons of gold inside!\n\nYou aren't sure how you were able to answer all those questions correctly... or what would happen if you answered a question incorrectly, but you can't seem to care. You can't wait to spend your riches back home!",
+      "name": "2c",
+      "pid": "19",
+      "position": {
+        "x": "746",
+        "y": "915"
+      }
+    },
+    {
+      "text": "Darkness. That's the next thing you see after answering the question. Next thing you know, you're lying on the ground. After getting your bearings, you find yourself outside the cave. Looks like this is what happens whenever you answer a question incorrectly.\n\nMaybe it wouldn't be such a bad idea going left...\n\n[[==>->Fork]]",
+      "links": [
+        {
+          "name": "==>",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": "1b",
+      "pid": "20",
+      "position": {
+        "x": "959",
+        "y": "746"
+      }
+    },
+    {
+      "text": "Darkness. That's the next thing you see after answering the question. Next thing you know, you're lying on the ground. After getting your bearings, you find yourself outside the cave. Looks like this is what happens whenever you answer a question incorrectly.\n\nMaybe it wouldn't be such a bad idea going left...\n\n[[==>->Fork]]",
+      "links": [
+        {
+          "name": "==>",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": "4b",
+      "pid": "21",
+      "position": {
+        "x": "1195",
+        "y": "750"
+      }
+    },
+    {
+      "text": "Darkness. That's the next thing you see after answering the question. Next thing you know, you're lying on the ground. After getting your bearings, you find yourself outside the cave. Looks like this is what happens whenever you answer a question incorrectly.\n\nMaybe it wouldn't be such a bad idea going left...\n\n[[==>->Fork]]",
+      "links": [
+        {
+          "name": "==>",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": "5b",
+      "pid": "22",
+      "position": {
+        "x": "1315",
+        "y": "746"
+      }
+    },
+    {
+      "text": "Darkness. That's the next thing you see after answering the question. Next thing you know, you're lying on the ground. After getting your bearings, you find yourself outside the cave. Looks like this is what happens whenever you answer a question incorrectly.\n\nMaybe it wouldn't be such a bad idea going left...\n\n[[==>->Fork]]",
+      "links": [
+        {
+          "name": "==>",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": "2b",
+      "pid": "23",
+      "position": {
+        "x": "1083",
+        "y": "747"
+      }
+    },
+    {
+      "text": "Darkness. That's the next thing you see after answering the question. Next thing you know, you're lying on the ground. After getting your bearings, you find yourself outside the cave. Looks like this is what happens whenever you answer a question incorrectly.\n\nMaybe it wouldn't be such a bad idea going left...\n\n[[==>->Fork]]",
+      "links": [
+        {
+          "name": "==>",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": "2a",
+      "pid": "24",
+      "position": {
+        "x": "940",
+        "y": "634"
+      }
+    },
+    {
+      "text": "Darkness. That's the next thing you see after answering the question. Next thing you know, you're lying on the ground. After getting your bearings, you find yourself outside the cave. Looks like this is what happens whenever you answer a question incorrectly.\n\nMaybe it wouldn't be such a bad idea going left...\n\n[[==>->Fork]]",
+      "links": [
+        {
+          "name": "==>",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": "3a",
+      "pid": "25",
+      "position": {
+        "x": "1052",
+        "y": "623"
+      }
+    },
+    {
+      "text": "Darkness. That's the next thing you see after answering the question. Next thing you know, you're lying on the ground. After getting your bearings, you find yourself outside the cave. Looks like this is what happens whenever you answer a question incorrectly.\n\nMaybe it wouldn't be such a bad idea going left...\n\n[[==>->Fork]]",
+      "links": [
+        {
+          "name": "==>",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": "4a",
+      "pid": "26",
+      "position": {
+        "x": "1180",
+        "y": "624"
+      }
+    },
+    {
+      "text": "Darkness. That's the next thing you see after answering the question. Next thing you know, you're lying on the ground. After getting your bearings, you find yourself outside the cave. Looks like this is what happens whenever you answer a question incorrectly.\n\nMaybe it wouldn't be such a bad idea going left...\n\n[[==>->Fork]]",
+      "links": [
+        {
+          "name": "==>",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": "5a",
+      "pid": "27",
+      "position": {
+        "x": "1312",
+        "y": "634"
+      }
+    },
+    {
+      "text": "Darkness. That's the next thing you see after answering the question. Next thing you know, you're lying on the ground. After getting your bearings, you find yourself outside the cave. Looks like this is what happens whenever you answer a question incorrectly.\n\nMaybe it wouldn't be such a bad idea going left...\n\n[[==>->Fork]]",
+      "links": [
+        {
+          "name": "==>",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": "1c",
+      "pid": "28",
+      "position": {
+        "x": "948",
+        "y": "891"
+      }
+    },
+    {
+      "text": "Darkness. That's the next thing you see after answering the question. Next thing you know, you're lying on the ground. After getting your bearings, you find yourself outside the cave. Looks like this is what happens whenever you answer a question incorrectly.\n\nMaybe it wouldn't be such a bad idea going left...\n\n[[==>->Fork]]",
+      "links": [
+        {
+          "name": "==>",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": "3c",
+      "pid": "29",
+      "position": {
+        "x": "1067",
+        "y": "897"
+      }
+    },
+    {
+      "text": "Darkness. That's the next thing you see after answering the question. Next thing you know, you're lying on the ground. After getting your bearings, you find yourself outside the cave. Looks like this is what happens whenever you answer a question incorrectly.\n\nMaybe it wouldn't be such a bad idea going left...\n\n[[==>->Fork]]",
+      "links": [
+        {
+          "name": "==>",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": "4c",
+      "pid": "30",
+      "position": {
+        "x": "1192",
+        "y": "899"
+      }
+    },
+    {
+      "text": "Darkness. That's the next thing you see after answering the question. Next thing you know, you're lying on the ground. After getting your bearings, you find yourself outside the cave. Looks like this is what happens whenever you answer a question incorrectly.\n\nMaybe it wouldn't be such a bad idea going left...\n\n[[==>->Fork]]",
+      "links": [
+        {
+          "name": "==>",
+          "link": "Fork",
+          "pid": "12"
+        }
+      ],
+      "name": "5c",
+      "pid": "31",
+      "position": {
+        "x": "1300",
+        "y": "888"
+      }
+    }
+  ],
+  "name": "Project 1",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "64DF13AF-40EF-4DCA-9B5B-3901BE364FC9"
+}
+
